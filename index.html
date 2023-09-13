@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <link href="./img/笔记本图标.png" rel="icon">
+    <title>html笔记</title>
+    <link rel="stylesheet" href="./css/b_css.css">
+   
+</head>
+<body>
+    <button class="weibu" onclick="scrToBOttom()">到尾部</button>
+
+
+<a  class="btn" title="回到顶端" href="">置顶</a>
+<h1 id="Dabt">html&css笔记</h1>
+<div id="Baidu_box">
+    <a href="https://www.baidu.com/" target="_blank" >
+    <input id="baidu_an_niu" type="button" value="自己百度" > </a>
+</div>
+<form>
+
+
+    <div class="Box">
+<h2>转义</h2>
+<img src="./img/html转义.png"   alt="html转义" title="html转义">
+<h2>换行</h2>
+<p>&lt;br&gt;<br></p>
+<h2>分割线</h2>
+<p>&lt;hr&gt;<br></p>
+<h2>标签i,b,u,s的用法</h2>
+<img src="./img/加粗_下划线_倾斜_删除线.png"  alt="">
+<h2>列表</h2>
+<p>无序&lt;ul&gt;（li）<br></p>
+<img src="./img/无序列表.png" alt="">
+<p>有序&lt;ol&gt;（li)<br></p>
+<img src="./img/有序列表.png" alt="">
+<p>自定义&lt;dl&gt;（dt，dd)<br></p>
+<img src="./img/自定义列表.png" alt="">
+<img src="./img/自定义列表2.png" alt="">
+<h2>表格</h2>
+<p>表格&lt;table&gt;（tr，td)<br></p>
+<img src="./img/表格.png" alt="">
+<h3>表格属性</h3>
+<p>border(边框宽度) </p>
+<p>width（边框表格宽度）</p>
+<p>height（表格高度）</p>
+<img src="./img/表格属性.png" alt="">
+<h4>其他属性</h4>
+<p>caption(表格大标题)</p>
+<p>th（表头单元格）</p>
+<img src="./img/其他标签.png" alt="">
+<h3>结构标签</h3>
+<p>thead（头）</p>
+<p>tbody（主体）</p>
+<p>tfoot（底部）</p>
+<img src="./img/结构标签.jpg" alt="">
+<h3>合并单元格</h3>
+<p>rowspan（垂直合并）</p>
+<p>colspan（水平合并）</p>
+<img src="./img/合并单元格.jpg" alt="">
+<h2>表单（input属性）</h2>
+<p>text（文本框)</p>
+<p>password（密码框）</p>
+<p>radio（单选框）</p>
+<p>checkbox（多选框）</p>
+<p>file（文件选择）</p>
+<p>submit（提交按钮）</p>
+<p>reset（重置按钮）</p>
+<p>button（普通按钮，默认无功能，之后配合is添加功能）</p>
+<img src="./img/input_type属性值.jpg" alt="">
+<p>name单选必须一样，checked是默认选中<br></p>
+<img src="./img/表单名字和默认属性.png" alt="">
+<p>多文件选择，multiple(语法&lt;input type="file"&gt;)</p>
+<img src="./img/input多文件选择.png" alt="" title="多文件选择">
+<p>submit(提交按钮),reset(重置按钮),button(普通按钮,默认无功能)<br></p>
+<img src="./img/input提交按钮.png" alt="" title="按钮">
+<p>button按钮属性 </p>
+<p>submit（提交按钮）</p>
+<p>reset（重置按钮）</p>
+<p>button(普通按钮)</p>
+<img src="./img/button按钮属性.png" alt="" title="按钮">
+<p>下拉菜单select(option) </p>
+<p>selected(默认选中)</p>
+<img src="./img/下拉菜单效果.png" alt="" title="下拉菜单效果">
+<p>文本域（textarea）</p>
+<img src="./img/文本域属性.png" alt="" title="文本域属性">
+<p>文字单选（label标签）</p>
+<img src="./img/label标签.png" alt="" title="文字单选">
+<h3>布局标签（手机端）</h3>
+<img src="./img/布局标签.png" alt="" style="width: 700px" title="布局标签">
+<h1>css</h1>
+<h2>选择器</h2>
+<p>通配符（*{参数}）</p>
+<p>class（.class名{参数}）</p>
+<p>id（#id名{参数}）</p>
+<p>标签（标签名{参数}）</p>
+<h1>字体样式</h1>
+<p>文字大小（font-size 默认16）</p>
+<img src="./img/字体大小.png" alt="" title="文字大小">
+<p>文字粗细（font-weight 默认400）</p>
+<img src="./img/字体粗细.png" alt="" title="文字粗细">
+<p>文字倾斜（font-style 倾斜italic）</p>
+<img src="./img/文字倾斜.png" alt="" title="文字倾斜">
+<p>字体选择（font-family 注意渲染规则）</p>
+<img src="./img/字体渲染规则.png" alt="" title="字体渲染规则">
+<p>字体font属性复写（font : style weight size family;）（宽高，大小，字体）</p>
+<img src="./img/字体font属性复写.png" alt="" title="字体font属性复写">
+<h2>文本样式</h2>
+<p>文本缩进:text-indent</p>
+<p>文本水平对齐方式:text-align</p>
+<p>文本修饰: text-decoration</p>
+<img src="./img/文本样式.png" alt="" title="文本样式">
+<p>1，文本缩进 text-indent (px,em 最好em)</p>
+<p>2，水平对齐（左left 居中center 右right ） </p>
+<img src="./img/水平对齐.png" alt="" title="水平对齐">
+<p>3，文本修饰（text-decoration ） </p>
+<p>underline（下划线(常用)）</p>
+<p>line-through（删除线(不常用)）</p>
+<p>overline（上划线(几乎不用)）</p>
+<p>none（无装饰线(常用））</p>
+<img src="./img/文本修饰.png" alt="" title="文本修饰">
+<p>行高（line-height）</p>
+<img src="./img/行高.png" alt="" title="行高">
+<p>行高示意图</p>
+<img id="Hg" src="./img/行高示意图.png" alt="" title="行高示意图">
+<p>连写font注意（size/line-height）</p>
+<img src="./img/连写font注意.png" alt="" title="连写font注意">
+<p>颜色常见取值（了解）</p>
+<img id="Ysq" src="./img/颜色常见取值.png" alt="" title="颜色常见取值">
+
+<h2>选择器进阶</h2>
+<p>后代选择器（选择器1 选择器2{css}）</p>
+<img src="./img/后代选择器.png" alt="" title="后代选择器">
+<p>子代选择器（选择器1>选择器2{css}）</p>
+<img src="./img/子代选择器.png" alt="" title="子代选择器">
+<p>并集选择器（选择器1，选择器2{css}）</p>
+<img src="./img/并集选择器.png" alt="" title="并集选择器">
+<p>交集选择器（选择器1选择器2{css}）</p>
+<img src="./img/交集选择器.png" alt="" title="交集选择器">
+<p>伪类选择器（选择器:hover{css}）</p>
+<img src="./img/伪类选择器.png" alt="" title="伪类选择器">
+
+<h2>emment快捷语法</h2>
+<p>emment快捷语法（vscode）</p>
+<img class="Emm" src="./img/emment快捷语法.png" alt="" title="emment快捷语法">
+<h2>背景相关属性</h2>
+<p>背景图（background-img（bgi））</p>
+<img class="Emm" src="./img/背景图.png" alt="" title="背景图">
+<p>背景平铺background-repeat (bgr)</p>
+<img class="Emm" src="./img/背景平铺.png" alt="" title="背景平铺">
+<p>背景位置调整background-position (bgp) <br>水平方向（left，center,right） <br>垂直方向(top,center,bottom)</p>
+<img class="Emm" src="./img/背景位置调整.png" alt="" title="背景位置调整">
+<p>背景相关属性的连写形式 (bg) <br>语法 backgroud:color(背景颜色) image（背景图片） repeat（背景平铺方式） position （背景位置调整）</p>
+<img class="Emm" src="./img/背景相关属性的连写形式.png" alt="" title="背景相关属性的连写形式">
+<h2>元素显示模式转换</h2>
+<p>元素显示模式转换 (display) <br>display:block(转换成块级元素)<br> display:inline-block（转换成行内块元素）<br> display:inline（转换成行内元素）<br> </p>
+<img class="Emm" src="./img/元素显示模式转换.png" alt="" title="元素显示模式转换">
+<h2>x选择器的优先级</h2>
+<p>继承&lt;通配符选择器&lt;标签选择器&lt;类选择器&lt;id选择器&lt;行内样式&lt;!important</p>
+
+<p>div p{} &lt; *{} &lt; p{} &lt; .class &lt;  #id &lt; 行内样式 (&ltp style=""&gt;) &lt; !important </p>
+
+<img class="Emm" src="./img/选择器的优先级.png" alt="" title="选择器的优先级">
+
+<h2>盒子模型</h2>
+<p>内容（content） 内边距（padding） 边框区域（border）外边距（margin）</p>
+
+<img class="Emm" src="./img/盒子示意图.png" alt="" title="盒子示意图">
+<p>盒子边框 border : 10px{字体} solid{边框线条类型} red{线条颜色} ;</p>
+<img class="Emm" src="./img/盒子边框.png" alt="" title="盒子边框">
+
+
+
+
+
+</div>
+<div class="Fengebox">***********************************************************************************************</div>
+<div>
+    <p style="text-align: center;
+                     color: #104141;
+                     font-size: 58px; 
+                     font-weight: 700 ;
+                     font-style: italic;"
+                      > ------------末尾展示栏------------</p>
+    
+    <img  class="Jieshutu" src="./img/结束图.JPG" alt="" title="不要凶我">
+  
+</div>
+
+
+
+
+
+
+
+
+<div id="bottom" > </div>
+</form>
+<script>
+    function scrToBOttom(){
+        var elemment =
+        document.getElementById("bottom");
+        elemment.scrollIntoView();
+
+    }
+</script>
+</body>
+</html>
