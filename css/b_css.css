@@ -1,0 +1,98 @@
+    /*全局配置*/
+    *{
+        /*取消边距*/
+        margin: 0;
+        padding: 0;
+        /*字体颜色*/
+        color: green;
+        /*背景颜色*/
+        background: beige;
+        /*字体控制*/
+        font-family: 楷体,"微软雅黑 Light",sans-serif;
+        }
+    /*控制总盒子*/
+    .Box{
+        width: 1000px;
+        margin: 0  auto;
+        border-bottom: 20px solid #d61462;
+        
+    }
+    /*按钮大小以及位置*/
+    .btn{
+        width:21px ;
+        height: 44px;
+        position: fixed;
+        bottom: 15px;
+        background: pink;
+        left: 58%;
+        margin-left: 502px;
+        text-decoration: none;
+        border: 2px solid black;
+    }
+    .weibu{
+        width:22px ;
+        height: 47px;
+        position: fixed;
+        bottom: 15px;
+        background: pink;
+        left: 60%;
+        margin-left: 500px;
+    }
+    /*置顶按钮 鼠标路过颜色*/
+    .btn:hover{
+        background: darkturquoise;
+    }
+    .weibu:hover{
+        background: greenyellow;
+    }
+    /*控制id为baidu_an_niu的目标*/
+    #baidu_an_niu{
+        font-size: 40px;
+        text-align: center;
+        color: red;
+
+
+    }
+    /*控制所有p标签*/
+    p{
+        color: red;
+        font-size: 22px;
+        /* text-indent: 2em; */
+
+        /*text-align: center;*/
+    }
+    /*控制标题*/
+    #Dabt{
+      text-align: center;
+        color: blueviolet;
+        font-size: 50px;
+    }
+    /*控制Baidu_box盒子*/
+    #Baidu_box {
+        text-align: center;
+        color: black;
+    }
+    .Box>img{
+        text-align: right;
+    }
+    /*图片》颜色取值*/
+    #Ysq{
+        width: 417px;
+    }
+    /*行高的图片*/
+    #Hg{
+        width: 400px;
+    }
+    .Emm {
+        width: 400px;
+    }
+    .Jieshutu{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
+    .Fengebox{
+        width: 1000px;
+        height: 124px;
+    }
+
