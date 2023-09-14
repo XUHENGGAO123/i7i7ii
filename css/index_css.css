@@ -21,7 +21,20 @@
     text-decoration: none;
     color:rgb(37, 210, 230);
 }
-
+.dibu{
+    width: 80px;
+    height: 15px;
+    padding: 10px;
+}
+.dibu a{
+    text-decoration: none;
+    text-align: center;
+   
+    /* display: inline-block; */
+    width: 30px;
+    height: 15px;
+    background: wheat;
+}
 
 
 
